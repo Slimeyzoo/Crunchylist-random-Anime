@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Crunchylist-random-Anime b
+// @name         Crunchylist-random-Anime
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  when you press R a random anime will be selected
@@ -37,13 +37,13 @@
     // Button erstellen
     {
         const btn = document.createElement("button");
-        btn.innerText = "🎲 Zufälliger Anime";
+        btn.innerText = "random Anime";
         Object.assign(btn.style, {
             position: "fixed",
             bottom: "20px",
             right: "20px",
             padding: "10px 15px",
-            backgroundColor: "#f47521",
+            backgroundColor: "#23252b",
             color: "white",
             border: "none",
             borderRadius: "10px",
