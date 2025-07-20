@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Crunchylist-random-Anime
+// @name         Crunchylist-random-Anime b
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  when you press R a random anime will be selected
-// @match        https://www.crunchyroll.com/de/crunchylists/*
+// @match        https://www.crunchyroll.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -35,7 +35,7 @@
     }
 
     // Button erstellen
-    function addButton() {
+    {
         const btn = document.createElement("button");
         btn.innerText = "🎲 Zufälliger Anime";
         Object.assign(btn.style, {
@@ -73,8 +73,4 @@
         }
     });
 
-    // Starte nach Seitenaufbau
-    window.addEventListener("load", () => {
-        addButton();
-    });
 })();
