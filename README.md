@@ -1,6 +1,5 @@
 # how to use
-go on the crunchylist <br/>
-when you press R a random anime will be selected 
+when you press R or the button a random anime from the page will be selected 
 
 # install
 ### !!! this is a skipt for tampermonkey !!!
